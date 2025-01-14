@@ -12,3 +12,5 @@ every part of the config has an example of what raising or lowering it would mea
 to test what works best with your face, though you will have to exit and re-enter to have the changes be applied
 
 If this gets popular enough future updates may include but are not limited too. A Better ui, Different mouth movements based on not just mouth open but also sound decible. better smile, And Better blink detection. More and different face tracking such as head rotation, turning your head to the side, Indevidual left and right blink/wink detection, and eyebrow movement tracking.
+
+If you encounter any errors or glitches, please contact me on twitter. it would be better to @ me because i would see it faster
