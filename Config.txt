@@ -1,0 +1,11 @@
+#python Tracking.py --shape-predictor shape_predictor_68_face_landmarks.dat to run the applicaton.
+#Please note you will probably have to edit some of these to work better with your face. Make all the MOUTH_AR_THRESH Lower for Better mouth to talking detection
+EYE_AR_THRESH = 0.25 #Higher means less eye movement needed to count as a blink.
+MOUTH_AR_THRESH = 0.87 #Higher means more mouth open to count as very open
+MOUTH_AR_THRESH2 = 0.77 #Higher means more mouth open to count as open
+MOUTH_AR_THRESH3 = 0.68 #Higher means more mouth open to count as slightly open. Lower means less needed to count as mouth closed.
+CheckMouthState = 0.1 #Lower means it will check what state the mouth is in faster. for better mouth tracking to a png a lower number is better.
+CheckEyeState = 0.02 #Lower means it will check what state the Eye's are in faster.
+EYE_AR_THRESH2 = 0.35 #Higher means more eye open to count as eye's very open.
+CheckEyeState2 = 1 #I dont reccomend changing this. this is to allow it to keep the fact that your eyes are very open for more then half a second
+SMILE_THRESHOLD = 1.11 #How big a smile has to be for it to count as one, The higher it is the more you will have to smile.
