@@ -1,6 +1,8 @@
 # Vt-Png
 Something akin to a simple Vtube studio for Png's. It will track what your face does, And in tern change what png is displayed
 
+IMPORTANT: when you get png's ready for this, you need to make the background be white, as in the code white is set white to be the transparent color. so funny enough if you make the png background transparent it will actually appear white
+
 This application will use your default camera, and create a folder in its directory to store the images with names it can understand. it will never take store or use information other then to make the application work. none of the information will ever leave your pc.
 
 Before running the application please run the setup file. to run the app please use this "python Tracking.py --shape-predictor shape_predictor_68_face_landmarks.dat".
